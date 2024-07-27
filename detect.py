@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load the YOLO model
-model = YOLO("best.pt")
+model = YOLO("v8m_best.pt")
 
 # Predict using the default camera (source=0)
 model.predict(source="Test_night1.mp4", show=True, save=True)
